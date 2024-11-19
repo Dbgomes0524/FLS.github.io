@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mercado.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>
+        <strong>
+            Supermercado JS
+        </strong>
+    </h1>
+
+    <label>Produto:</label>
+    <input id="nomeproduto" type="text" placeholder="Digite Aqui o Nome!"> <br><br>
+
+    <label >Preço R$:</label>
+    <input id="valorpreco" type="text" placeholder="Digite o Preço Aqui!"> <br><br>
+
+
+    <button onclick="calculo()" id="button1">
+        Ver promoção
+    </button>
+
+    <h1>
+        <span id="nome-Produto">Produto</span> - Promoção: Leve 3 por R$<span id="total">0.00</span>
+    </h1>
+
+    <br><br>
+
+    <h1>
+        3° produto custa apenas R$<span id="precounico">0.00</span>
+    </h1>
+
+<script src="mercado.js"></script>
+</body>
+</html>

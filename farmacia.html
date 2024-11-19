@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="farmacia.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Farmácia JS
+    </h1>
+
+    <label>Medicamento</label><br>
+    <input id="NomeDoProduto" type="text" placeholder="Digite Aqui o Nome!"> <br><br>
+
+    <label>Preço R$:</label> <br>
+    <input id="Preço" type="text"  placeholder="Digite o Preço Aqui!"> <br><br>
+
+    <button onclick="calculo()" id="button1">
+        Mostrar Promoção
+    </button>
+
+    <br>
+
+    <h3>
+        Promoção de <span id="NomeTrocar">Produto</span>
+    </h3>
+
+    <h3>
+        Leve 2 por apenas R$: <span id="valorproduto">0.00</span>
+    </h3>
+    
+
+    
+    <script src="farmacia.js"></script>
+</body>
+</html>

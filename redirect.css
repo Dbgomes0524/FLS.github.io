@@ -1,0 +1,35 @@
+body
+{
+    background-color: black;
+}
+div
+{
+    font-size: large;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+button
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #547777;
+    transition: background-color 0.3s;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+button:hover
+{
+    background-color: #8d3c3c;
+}
+button:active
+{
+    background-color: #8d3c3c;
+}
